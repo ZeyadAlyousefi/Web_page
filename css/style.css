@@ -1,0 +1,363 @@
+:root{
+    --main-color:rgb(117, 241, 225);
+}
+body{
+   font-family:emoji;
+  
+    
+}
+
+.lading_page{
+   min-height: 100vh;
+   background-image: url("../img/1.jpg");
+   background-size:cover;
+    position: relative;
+   
+}
+.lading_page .overlay{
+    background-color: #0000008a;
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index: 1;
+}
+
+
+
+.header{
+    position: relative;
+    z-index:2;
+    color:white;
+    display:flex;
+    padding:5px; 
+    font-weight: bold;
+    position: sticky;
+    top: 1px;
+    height: 245px;
+
+}
+.header .logo{
+    width:300px;
+    padding:32px;
+    position: sticky;
+    top: 1px;
+    font-size: 32px;
+    opacity: 0.5;
+
+}
+.minue{
+    margin:15px;
+      position: absolute;
+      left:93%; 
+    display:block;
+}
+ .minue div{
+    
+    width: 35px;
+    position: sticky;
+    top: 1px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    
+   
+}
+.header ul {
+     
+      list-style-type: none;
+      font-size:20px;
+      text-align: right;
+      padding-right:20px;
+      padding-left:0;
+      width:100%;
+      margin-top: 41px;
+    margin-right: 18px;
+    display:none;
+   
+    z-index: 10;
+    opacity: 0.;
+     
+      
+      
+    }
+    ul li{
+        padding:8px;
+        display:block;
+        margin-left:10px;
+      
+    }
+    ul li a{
+        text-decoration: none;
+        color:white;
+        transition: 500ms;
+    }
+    ul li a:hover
+    {
+        color:var(--main-color);
+        background-color:rgba(228, 124, 111, 0.918)
+    }
+    /* /////////////////////////////// */
+    
+     .link-in{
+        display: flex;
+        /* justify-content: space-evenly; */
+        position: absolute;
+        right: -1050px;
+        top: 79px;
+    }
+    /* /////////////////////////////// */
+    .introduction{
+        color:white;
+        z-index:2;
+        position: absolute;
+        top:35%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        text-align: center;
+        
+       
+
+    }
+    .introduction h1 span{
+        color:var(--main-color);
+        margin:-2px;
+    }
+    .introduction h1{
+        font-size:35px;
+        margin:25px;
+    }
+    .introduction .title{
+        line-height: 35px;
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+
+
+
+    div .upBack{
+        width: 100%;
+        height: 190px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .upBack .back1{
+        margin:2px auto;
+        padding:5px ;
+    }
+    
+    .upBack .back1 img{
+        width: 84%;
+        height: 320px;
+        position: absolute;
+        right: 339px;
+    
+    }
+
+    .upBack .back2{
+        position: absolute;
+        left: 192px;
+    }
+    
+    .upBack .back2 img{
+        width:100%;
+        height:320px;
+    }
+    /* //////////////////////////////////////////////////////////////////////// */
+   /*(تنسيق صفحة تسجيل الدخول )*/
+   div.log{
+
+    border:2px red solid;
+    border-radius:20px;
+    width:28%;
+    height:1px;
+    position:absolute;
+    top:-1%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:2;
+    color:rgba(178, 236, 233, 0.925);
+    font-weight:bold;
+    background: #21252578;
+
+   }
+    div .hide{
+        display:none;
+    }
+   .log .icon{
+       width:22%;
+       border:1px solid red;
+       margin:10px auto;
+       height:65px;
+       border-radius:50%;
+       background:url("../icon/2.png");
+       background-size:cover;
+       
+
+   }
+   
+      
+   
+  
+   p.info{
+       text-align: center;
+   }
+   div.inside{
+       width:90%;
+      
+       height:230px;
+       position:absolute;
+       top:47%;
+       left:50%;
+       transform: translate(-50%, -50%);
+        margin-left:10px;
+
+
+   }
+   div.inside input{
+       width:50%;
+      border-color:transparent transparent red transparent;
+       background:none;
+       color:white;
+   }
+  
+   .inside span{
+      margin-right: 20px;
+   }
+   .inside .pass{
+     
+      position: relative;
+      bottom: -9px; 
+      right:-15px;
+       
+      
+   }
+   .inside #check{
+       margin-left:-22%;
+       margin-top:15px;
+   }
+   .inside .send{
+       border-color:red red red red ;
+       color:white;
+       margin:5px auto;
+       margin-left:10%;
+       background-color: rgb(184, 37, 8);
+       width:70%;
+   }
+   .inside .forget{
+       font-size:13px;
+       margin:5% 20%;
+   }
+   .inside .forget a{
+       color:white;
+   }
+
+
+   /*(تنسيق صفحة تسجيل الدخول )*/
+
+
+
+   /* بداية تنسيق المحتوى */
+.content{
+    width:100%;
+    height:600px;
+    background-color: whitesmoke;
+    margin:0 auto;
+    border:1px red solid;
+
+}
+.headContent{
+    margin:20px;
+}
+.one, .two, .three , .four ,.five ,.zero{
+    font-size:35px;
+    font-family:monospace;
+    letter-spacing: -2px;
+    font-weight: bolder;
+    text-shadow: 8px 4px 4px rgb(228, 150, 105)
+} 
+.one{
+    color:rgb(255, 0, 0);
+}
+.two{
+    color:blue;
+}
+.three{
+    color:rgb(25, 209, 25);
+}
+.four{
+    color:rgb(228, 224, 15)
+}
+.five{
+    color:turquoise;
+}
+.zero{
+    color:tomato
+}
+
+    .subject{
+        color: rgb(61 102 97);
+        margin-top: 10px;
+        background: url("../img/2.jpg");
+        height: 500px;
+        position: relative;
+        display: flex;
+    
+
+}
+
+ .subone{
+   
+    color: rgb(230, 15, 15);
+    width: 32%;
+    font-size: 25px;
+    left:37px;
+    height:350px;
+    margin:1px 10px;
+  
+   
+}
+.box{
+    width:32%;
+    height:450px;
+   
+    margin:1px 10px;
+
+}
+.photo{
+   position: relative;
+   right:50%;
+   left:40%;
+   transform: translate(-50% , 0%);
+  
+    
+}
+.photo img{
+    width: 100%;
+    height: 288px;
+   
+    margin: 56px auto 25px;
+}
+.text button{
+    margin: 0px auto;
+    color: brown;
+    width: 70%;
+    height: 50px;
+    position: relative;
+    right: -44px;
+    border-radius: 50px;
+    font-size: 33px;
+}
+.text button a{
+    text-decoration: none;
+    color:brown;
+}
+   /* نهاية تنسيق المحتوى */
+
+   
+    
+   
+
+   
+
