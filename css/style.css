@@ -361,3 +361,12 @@ body{
 
    
 
+.about{
+    width:400px;
+    border-radius:20px;
+    margin-top:25px;
+    border:white solid 3px;
+    height:250px;
+    word-spacing: 5px;
+    line-height: 1.8;
+}
